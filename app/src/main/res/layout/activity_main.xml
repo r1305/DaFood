@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comp.dafood.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/logofinal"/>
+    <ImageButton
+        android:id="@+id/desayuno"
+        android:layout_width="320dp"
+        android:layout_height="95dp"
+        android:src="@drawable/btn_desayuno"/>
+    <ImageButton
+        android:id="@+id/almuerzo"
+        android:layout_width="320dp"
+        android:layout_height="95dp"
+        android:src="@drawable/btn_almuerzo"/>
+</LinearLayout>
